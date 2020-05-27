@@ -1,0 +1,94 @@
+body {
+  font-family: monospace;
+}
+h1 {
+  display: inline-block;
+  font-size: 3em;
+  margin: 1rem;
+  padding: 14px;
+}
+h3 {
+  color: black;
+  font-size: 1.4rem;
+  margin-top: 3px;
+  text-align: center;
+}
+#chatbox {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80%;
+  margin-top: 10px;
+  
+}
+ 
+#inpGrp{
+  margin-left: 172px;
+  margin-right: 172px;
+  margin-top: auto;
+  width: 120%;
+}
+#micInput {
+  margin-top: 30px;
+  margin-left: 520px  ;
+  margin-right: -160px;
+  width: 10%;
+  height: auto;
+  background image: url(mic-fill.svg);
+}
+
+
+.userText span {
+  background-color: #F9DD25;;
+  padding: 5px;
+  border-radius: 0px;
+  /* margin-right: 20px; */
+} 
+
+.botText span {
+  background-color:  #cff133;
+  padding: 2px;
+  border-radius: 0px;
+} 
+#tidbit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
+
+
+.boxed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
+  margin-top: 60px;
+  border: 2px solid rgb(34, 31, 34);
+}
+
+@media(max-width: 600px) {
+
+  #chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 60px;
+  }
+  #userInput {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    width: 90%;
+    margin-top: 60px;
+  }
+  #textInput {
+    width: 90%;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 3px solid black;
+  }
+
+  .boxed{
+    width: 95%;
+    margin-top: 20px;
+  }
+}
